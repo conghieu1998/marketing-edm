@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watsons VN</title>
+    <style>
+        @font-face {
+            font-family: 'GothamRoundedMedium';
+            src: url('https://img.watsonsvn.com/marketing/mkt/edmLuna26/SVN-GothamRoundedMedium-1.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    
+        body {
+            font-family: 'GothamRoundedMedium', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body style="margin:0;padding:0;background-color:#f4f4f4;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f4;">
+        <tr>
+            <td align="center">
+                <!-- Container -->
+                <table width="600" cellpadding="0" cellspacing="0"
+                    style="background-color:#ffffff;max-width:600px;width:100%;">
+
+                    <!-- Hero Image -->
+                    <tr>
+                        <td>
+                            <img src="https://img.watsonsvn.com/marketing/mkt/edmLuna26/Asset151.png" width="600"
+                                style="width:100%;max-width:600px;display:block;border:0;" alt="Watsons Club" />
+                        </td>
+                    </tr>
+
+                    <!-- Content -->
+                    <tr>
+                        <td
+                            style="padding:24px;background-image:url('https://img.watsonsvn.com/marketing/mkt/edmLuna26/Asset191.png');background-size:cover;background-position:center;color:#000000;font-family: 'GothamRoundedMedium', Arial, sans-serif;">
+                            <p style="margin:0 0 12px;font-size:18px;text-align:center;">
+                                Thân gửi <strong>
+                                    <%= recipient.customerName !="" ? recipient.customerName : "__________________" %>
+                                </strong>,
+                            </p>
+
+                            <p style="margin:0 0 12px;font-size:16px;line-height:1.6;text-align:center;">
+                                Cảm ơn bạn đã tin tưởng và mua sắm cùng Watsons<br> trong suốt năm 2025!
+                                Sự tin tưởng của bạn là động lực<br> để chúng ta cùng nhau khơi mở
+                                và vững bước trên<br> hành trình <strong>VẺ ĐẸP MỚI</strong>.
+                            </p>
+
+                            <p style="margin:0 0 12px;font-size:16px;line-height:1.6;text-align:center;">
+                                Chúng tôi rất vui được chia sẻ rằng bạn đã tích lũy được
+                                <strong>
+                                    <%= recipient.totalPoints !="" ? recipient.totalPoints : "______" %>
+                                </strong> điểm
+                                (tương đương <strong>
+                                    <%= recipient.totalAmount !="" ? recipient.totalAmount : "______" %> VNĐ
+                                </strong>) <br>
+                                lời cảm ơn chân thành vì đã lựa chọn Watsons.
+                            </p>
+                            <div style="background-color:#000000;padding:12px;border-radius:20px;color: #EBDC97;">
+                                <p
+                                    style="margin:0 0 10px;font-size:16px;line-height:1.6;text-align:center;">
+                                    Bước sang năm 2026, hãy sẵn sàng cho những trải <br> nghiệm mới đầy hứng khởi
+                                    từ <span style="font-weight:bold;">Watsons Club</span> – chìa khóa mở ra
+                                    <span style="font-weight:bold;">Thế Giới WOW!</span>
+                                </p>
+
+                                <p
+                                    style="margin:0;font-size:16px;line-height:1.6;font-family:Arial,Helvetica,sans-serif;text-align:center;">
+                                    Tận hưởng nhiều ưu đãi hơn, nhiều đặc quyền hơn và những trải nghiệm
+                                    độc quyền dành riêng cho thành viên trên khắp châu Á.
+                                </p>
+                            </div>
+                            <div style="text-align: center;margin-top: 16px;">
+                                <p style="margin:0 0 12px;font-size:16px;line-height:1.6;">
+                                    Một lần nữa, cảm ơn bạn đã là một phần của gia đình Watsons.
+                                    Chúng tôi mong sớm được chào đón bạn quay trở lại.
+                                </p>
+                                
+                                <p style="margin:0 0 20px;font-size:16px;">
+                                    Chúc bạn một mùa lễ hội an lành và một năm mới tràn đầy cảm hứng phía trước!
+                                </p>
+                                
+                                <p style="margin:0;font-size:16px;">
+                                    Trân trọng,<br />
+                                    <strong>Watsons Việt Nam</strong>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Footer Text -->
+                    
+
+                </table>
+                <!-- End Container -->
+                <a href="https://www.watsons.vn/vi/?utm_source=edm&utm_medium=watsons_email&utm_campaign=20221227__estore_Thankyouletter"
+                    style="text-decoration:none;display:inline-block;">
+                    <img src="https://img.watsonsvn.com/marketing/mkt/edmLuna26/Asset20.png" width="600"
+                        style="width:100%;max-width:600px;display:block;border:0;" alt="Watsons Club" />
+                </a>
+            </td>
+        </tr>
+    </table>
+    <style>
+        @media (max-width:600px) {
+            table[width="600"] {
+                width: 100% !important;
+            }
+
+            td {
+                padding: 16px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+            }
+        }
+    </style>
+</body>
+
+</html>
